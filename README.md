@@ -1,6 +1,6 @@
 
 ---
-** "Practical Maching Learning Project"
+** "Practical Maching Learning Project"/
 
 author: "Bikram Bhusal"
 date: "November 11, 2019"
