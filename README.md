@@ -1,6 +1,6 @@
 
 ---
-title: "Practical Maching Learning Project"
+ "Practical Maching Learning Project"
 author: "Bikram Bhusal"
 date: "November 11, 2019"
 output:
@@ -18,7 +18,7 @@ Using devices such as Jawbone Up, Nike FuelBand, and Fitbit it is now possible t
 
 The goal of your project is to predict the manner in which they did the exercise. This is the “classe” variable in the training set.
 
-#Getting Data
+## Getting Data
 
 ```{r,echo=TRUE}
 trainD<-read.csv ("pml-training.csv",header = TRUE)
@@ -32,7 +32,7 @@ library(caret)
 library(corrplot)
 ```
 
-##Cleaning and Preparing the Data:
+## Cleaning and Preparing the Data:
 Note along the cleaning process we display the dimension of the reduced dataset
 Here,
 ```{r,echo=TRUE}
@@ -115,7 +115,7 @@ cmrf
 ```
 The accuracy rate using the random forest is very high: Accuracy : 0.9922 and therefore the out-of-sample-error is equal to 0.0078.This is an excellent result, so rather than trying additional algorithms, I will use Random Forests to predict on the test set.
 
-##Predictions
+## Predictions
 All that is left is to use this model to predict the classes of the validation data:
 
 ```{r,echo=TRUE}
