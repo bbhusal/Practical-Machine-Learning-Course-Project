@@ -1,9 +1,10 @@
 
 ---
-** "Practical Maching Learning Project"/
+ "Practical Maching Learning Project"
 
-author: "Bikram Bhusal"
-date: "November 11, 2019"
+** "Bikram Bhusal"
+
+* * "November 11, 2019"
 output:
   word_document: default
   pdf_document: default
