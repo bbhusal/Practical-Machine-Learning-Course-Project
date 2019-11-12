@@ -77,7 +77,7 @@ set.seed(345)
 modelfit_tree <- rpart(classe ~ ., data=training, method="class")
 fancyRpartPlot(modelfit_tree)
 ```
-![Screenshot](screenshot.png)
+![]( image .png)
 
 We then validate the model “modelfit_tree” on the testData to find out how well it performs by looking at the accuracy variable:
 
