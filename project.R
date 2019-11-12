@@ -1,0 +1,7 @@
+ptrain <- read.csv("pml-training.csv",header = T)
+ptest <- read.csv("pml-testing.csv")
+install.packages("rattle")
+library(rattle)
+install.packages("e1071")
+install.packages("rpart")
+install.packages("randomForest")
